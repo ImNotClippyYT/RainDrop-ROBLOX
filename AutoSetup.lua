@@ -8,5 +8,5 @@ local codeinit = Http:GetAsync(URL)
 
 
 local module = Instance.new("ModuleScript")
-module.Source = source
+module.Source = codeinit
 module.Parent = game.ReplicatedStorage
